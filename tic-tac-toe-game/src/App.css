@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-.grid {
+.gridarea {
   width: 500px;
   height: 500px;
   background-color: rgb(91, 121, 185);
@@ -25,4 +25,16 @@ body {
   display: flex;
   flex-direction: row;
   /* border: 1px solid brown; */
+}
+
+.grid {
+  display: grid;
+  flex: 33%;
+  height: 100%;
+  place-items: center;
+  border: 1px solid brown;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+  
 }
