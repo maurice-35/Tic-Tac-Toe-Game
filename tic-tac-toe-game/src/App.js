@@ -3,19 +3,25 @@ import {useState} from 'react'
 import Grid from './components/Grid'
 
 
-function App() {
+const App = ()  => {
   const [gridarea, setGridarea] = useState(['', '', '', '', '', '', '', '', ''])
   const [player, setPlayer] = useState('X')
 
   const chooseGrid = (grid) => {
     setGridarea(
       gridarea.map((val, idx) => {
-      if (idx === grid && val === 'c') {
+      if (idx === grid && val === '') {
         return player;
       }
       return val
     })
     )
+
+    if (player === 'X') {
+      setPlayer('Y')
+    } else {
+      setPlayer('X')
+    }
   }
 
 

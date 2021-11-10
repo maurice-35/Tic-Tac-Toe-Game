@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Grid ({ val, chooseGrid }) {
+const Grid = ({ val, chooseGrid }) => {
 	
 
 	return (
