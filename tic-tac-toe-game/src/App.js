@@ -5,6 +5,18 @@ import Grid from './components/Grid'
 
 function App() {
   const [gridarea, setGridarea] = useState(['', '', '', '', '', '', '', '', ''])
+  const [player, setPlayer] = useState('X')
+
+  const chooseGrid = (grid) => {
+    setGridarea(
+      gridarea.map((val, idx) => {
+      if (idx === grid && val === 'c') {
+        return player;
+      }
+      return val
+    })
+    )
+  }
 
 
   return (
@@ -34,7 +46,7 @@ function App() {
         <div className="row"></div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
