@@ -32,24 +32,62 @@ const App = ()  => {
           <Grid
           val={gridarea[0]} 
           chooseGrid={() => {
-            alert(0)
+            chooseGrid(0)
           }}
         />
         <Grid
           val={gridarea[1]} 
           chooseGrid={() => {
-            alert(1)
+            chooseGrid(1)
           }}
         />
         <Grid
           val={gridarea[2]} 
           chooseGrid={() => {
-            alert(2)
+            chooseGrid(2)
           }}
         />
         </div>
-        <div className="row"></div>
-        <div className="row"></div>
+        <div className="row">
+        <Grid
+          val={gridarea[3]} 
+          chooseGrid={() => {
+            chooseGrid(3)
+          }}
+        />
+        <Grid
+          val={gridarea[4]} 
+          chooseGrid={() => {
+            chooseGrid(4)
+          }}
+        />
+        <Grid
+          val={gridarea[5]} 
+          chooseGrid={() => {
+            chooseGrid(5)
+          }}
+        />
+        </div>
+        <div className="row">
+        <Grid
+          val={gridarea[6]} 
+          chooseGrid={() => {
+            chooseGrid(6)
+          }}
+        />
+        <Grid
+          val={gridarea[7]} 
+          chooseGrid={() => {
+            chooseGrid(7)
+          }}
+        />
+        <Grid
+          val={gridarea[8]} 
+          chooseGrid={() => {
+            chooseGrid(8)
+          }}
+        />
+        </div>
       </div>
     </div>
   )
