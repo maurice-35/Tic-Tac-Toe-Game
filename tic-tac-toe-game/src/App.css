@@ -1,14 +1,29 @@
-.App {
+/* .App {
   width: 100vh;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+h2 {
+  font-family: 'Rye', cursive;
+  color: brown;
+  text-transform: uppercase;
+  padding-left: 7.5rem;
 }
 
 .gridarea {
@@ -24,7 +39,6 @@ body {
   flex: 33%;
   display: flex;
   flex-direction: row;
-  /* border: 1px solid brown; */
 }
 
 .grid {
@@ -38,3 +52,8 @@ body {
   color: black;
   
 }
+
+.grid:active {
+  background-color: rgb(112, 135, 185);;
+}
+
