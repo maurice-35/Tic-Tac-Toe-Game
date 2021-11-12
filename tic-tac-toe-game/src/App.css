@@ -1,10 +1,3 @@
-/* .App {
-  width: 100vh;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -57,3 +50,7 @@ h2 {
   background-color: rgb(112, 135, 185);;
 }
 
+@media (max-width: 600px) {
+	h2 { font-size: 14px; padding-right: 8rem;}
+	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
+}

@@ -41,11 +41,6 @@ const App = () => {
 
   }
 
-  const restartGame = () => {
-    setGridarea(['', '', '', '', '', '', '', '', ''])
-    setPlayer('Y')
-  }
-
   const checkOutcome = () => {
     Patterns.forEach((currPattern) => {
       const firstPlayer = gridarea[currPattern[0]]
@@ -74,6 +69,11 @@ const App = () => {
     if (completed) {
       setOutcome({ winner: 'No One', state: 'Tie' })
     }
+  }
+
+  const restartGame = () => {
+    setGridarea(['', '', '', '', '', '', '', '', ''])
+    setPlayer('Y')
   }
 
 
