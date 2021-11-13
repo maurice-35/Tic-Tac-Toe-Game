@@ -17,8 +17,8 @@ h2 {
   color: brown;
   text-transform: uppercase;
   padding-left: 7.5rem;
-  margin-bottom: 2rem;
-  margin-top: -3rem;
+  margin-bottom: 1rem;
+  margin-top: -10rem;
 }
 
 .gridarea {
@@ -64,6 +64,30 @@ h2 {
   left: 30rem;
 }
 
+.heart3 {
+  position: relative;
+  top: -9rem;
+  left: 40rem;
+}
+
+.heart4 {
+  position: relative;
+  bottom: -30rem;
+  left: 40rem;
+}
+
+.heart5 {
+  position: relative;
+  top: -12rem;
+  right: 10.5rem;
+}
+
+.heart6 {
+  position: relative;
+  bottom: -26.8rem;
+  right: 10.5rem;
+}
+
 @media (max-width: 600px) {
 	h2 { font-size: 14px; padding-right: 8rem;}
 	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
@@ -78,5 +102,29 @@ h2 {
     position: relative;
     top: 15rem;
     left: 23rem;
+  }
+
+  .heart3 {
+    position: relative;
+    top: -12rem;
+    left: 23rem;
+  }
+
+  .heart4 {
+    position: relative;
+    bottom: -20rem;
+    left: 23rem;
+  }
+
+  .heart5 {
+    position: relative;
+    top: -15rem;
+    left: 0rem;
+  }
+
+  .heart6 {
+    position: relative;
+    bottom: -17rem;
+    left: 0rem;
   }
 }
