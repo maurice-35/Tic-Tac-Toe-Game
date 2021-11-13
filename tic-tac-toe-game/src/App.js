@@ -80,7 +80,9 @@ const App = () => {
   return (
     <>
       {/* <h2>tic-tac-toe game</h2> */}
-      <div className="gridarea">
+      <div className="gridarea"> 💖
+      <div className="heart1">💖</div>
+      <div className="heart2">💖</div>
       <h2>tic-tac-toe game</h2>
         <div className="row">
           <Grid
@@ -89,7 +91,7 @@ const App = () => {
               chooseGrid(0)
             }}
           />
-          <Grid
+          <Grid 
             val={gridarea[1]}
             chooseGrid={() => {
               chooseGrid(1)
@@ -141,7 +143,7 @@ const App = () => {
               chooseGrid(8)
             }}
           />
-        </div>
+        </div>💖
       </div>
     </>
   )

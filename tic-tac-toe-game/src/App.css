@@ -17,6 +17,8 @@ h2 {
   color: brown;
   text-transform: uppercase;
   padding-left: 7.5rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
 }
 
 .gridarea {
@@ -50,7 +52,31 @@ h2 {
   background-color: rgb(112, 135, 185);;
 }
 
+.heart1 {
+  position: relative;
+  bottom: -27.8rem;
+  left: 30rem;
+}
+
+.heart2 {
+  position: relative;
+  top: -3.2rem;
+  left: 30rem;
+}
+
 @media (max-width: 600px) {
 	h2 { font-size: 14px; padding-right: 8rem;}
 	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
+
+  .heart1 {
+    position: relative;
+    top: -1.6rem;
+    left: 23rem;
+  }
+
+  .heart2 {
+    position: relative;
+    top: 15rem;
+    left: 23rem;
+  }
 }
