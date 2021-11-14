@@ -79,15 +79,16 @@ const App = () => {
 
   return (
     <>
-      {/* <h2>tic-tac-toe game</h2> */}
-      <div className="gridarea"> 💖
-      <div className="heart1">💖</div>
-      <div className="heart2">💖</div>
-      <div className="heart3">💖</div>
-      <div className="heart4">💖</div>
-      <div className="heart5">💖</div>
-      <div className="heart6">💖</div>
+      <div className="container">
+        <div className="heart1">💖</div>
+        <div className="heart2">💖</div>
+        <div className="heart3">💖</div>
+        <div className="heart4">💖</div>
+        <div className="heart5">💖</div>
+        <div className="heart6">💖</div>
+      </div>
       <h2>tic-tac-toe game</h2>
+      <div className="gridarea"> 💖
         <div className="row">
           <Grid
             val={gridarea[0]}
@@ -95,7 +96,7 @@ const App = () => {
               chooseGrid(0)
             }}
           />
-          <Grid 
+          <Grid
             val={gridarea[1]}
             chooseGrid={() => {
               chooseGrid(1)

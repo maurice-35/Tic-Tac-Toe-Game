@@ -49,44 +49,50 @@ h2 {
 }
 
 .grid:active {
-  background-color: rgb(112, 135, 185);;
+  background-color: rgb(112, 135, 185);
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .heart1 {
   position: relative;
-  bottom: -27.8rem;
+  bottom: -24rem;
   left: 30rem;
 }
 
 .heart2 {
   position: relative;
-  top: -3.2rem;
-  left: 30rem;
+  top: -5.5rem;
+  left: 29rem;
 }
 
 .heart3 {
   position: relative;
   top: -9rem;
-  left: 40rem;
+  left: 36rem;
 }
 
 .heart4 {
   position: relative;
   bottom: -30rem;
-  left: 40rem;
+  left: 35rem;
 }
 
 .heart5 {
   position: relative;
-  top: -12rem;
-  right: 10.5rem;
+  top: -9rem;
+  right: 12rem;
 }
 
 .heart6 {
   position: relative;
-  bottom: -26.8rem;
-  right: 10.5rem;
-}
+  bottom: -30rem;
+  right: 13em;
+} 
 
 @media (max-width: 600px) {
 	h2 { font-size: 14px; padding-right: 8rem;}
@@ -94,37 +100,37 @@ h2 {
 
   .heart1 {
     position: relative;
-    top: -1.6rem;
-    left: 23rem;
+    top: -5rem;
+    left: 22rem;
   }
 
   .heart2 {
     position: relative;
-    top: 15rem;
-    left: 23rem;
+    top: 13.2rem;
+    left: 21rem;
   }
 
   .heart3 {
     position: relative;
-    top: -12rem;
-    left: 23rem;
+    top: -14rem;
+    left: 20rem;
   }
 
   .heart4 {
     position: relative;
-    bottom: -20rem;
-    left: 23rem;
+    bottom: -22rem;
+    left: 19rem;
   }
 
   .heart5 {
     position: relative;
-    top: -15rem;
-    left: 0rem;
+    top: -14rem;
+    left: -4rem;
   }
 
   .heart6 {
     position: relative;
-    bottom: -17rem;
-    left: 0rem;
+    bottom: -22rem;
+    left: -5rem;
   }
 }
