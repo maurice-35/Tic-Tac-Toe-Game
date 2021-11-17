@@ -58,79 +58,77 @@ h2 {
   padding: 0;
 }
 
-.heart1 {
+.heart1, .heart2, .heart3, .heart4, .heart5, .heart6 {
+  display: flex;
   position: relative;
+}
+
+.heart1 {
   bottom: -24rem;
   left: 30rem;
 }
 
 .heart2 {
-  position: relative;
   top: -5.5rem;
   left: 29rem;
 }
 
 .heart3 {
-  position: relative;
   top: -9rem;
   left: 36rem;
 }
 
 .heart4 {
-  position: relative;
   bottom: -30rem;
   left: 35rem;
 }
 
 .heart5 {
-  position: relative;
   top: -9rem;
   right: 12rem;
 }
 
 .heart6 {
-  position: relative;
   bottom: -30rem;
   right: 13em;
 } 
 
 @media (max-width: 600px) {
-	h2 { font-size: 14px; padding-right: 8rem;}
+  .heart1, .heart2, .heart3, .heart4, .heart5, .heart6 {
+    display: grid;
+    position: relative;
+  }
+
+	h2 { position: relative; font-size: 14px; padding-right: 8rem;}
 	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
 
   .heart1 {
-    position: relative;
-    top: -5rem;
-    left: 22rem;
+    top: -5em;
+    left: 22em;
   }
 
   .heart2 {
-    position: relative;
-    top: 13.2rem;
-    left: 21rem;
+    top: 13.2em;
+    left: 21em;
   }
 
   .heart3 {
-    position: relative;
     top: -14rem;
     left: 20rem;
   }
 
   .heart4 {
-    position: relative;
     bottom: -22rem;
     left: 19rem;
   }
 
   .heart5 {
-    position: relative;
-    top: -14rem;
-    left: -4rem;
+    top: -14em;
+    left: -4em;
   }
 
   .heart6 {
-    position: relative;
-    bottom: -22rem;
-    left: -5rem;
+    bottom: -22em;
+    left: -5em;
   }
 }
