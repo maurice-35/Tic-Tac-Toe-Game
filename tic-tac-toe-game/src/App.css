@@ -16,14 +16,14 @@ h2 {
   font-family: 'Rye', cursive;
   color: brown;
   text-transform: uppercase;
-  padding-left: 7.5rem;
-  margin-bottom: 1rem;
-  margin-top: -10rem;
+  padding-left: 7.5em;
+  margin-bottom: 1em;
+  margin-top: -10em;
 }
 
 .gridarea {
-  width: 500px;
-  height: 500px;
+  width: 50em;
+  height: 50em;
   background-color: rgb(91, 121, 185);
   border: 1px solid brown;
   display: flex;
@@ -64,32 +64,32 @@ h2 {
 }
 
 .heart1 {
-  bottom: -24rem;
-  left: 30rem;
+  bottom: -24em;
+  left: 30em;
 }
 
 .heart2 {
-  top: -5.5rem;
-  left: 29rem;
+  top: -5.5em;
+  left: 29em;
 }
 
 .heart3 {
-  top: -9rem;
-  left: 36rem;
+  top: -9em;
+  left: 36em;
 }
 
 .heart4 {
   bottom: -30rem;
-  left: 35rem;
+  left: 35em;
 }
 
 .heart5 {
-  top: -9rem;
-  right: 12rem;
+  top: -9em;
+  right: 12em;
 }
 
 .heart6 {
-  bottom: -30rem;
+  bottom: -30em;
   right: 13em;
 } 
 
@@ -99,7 +99,7 @@ h2 {
     position: relative;
   }
 
-	h2 { position: relative; font-size: 14px; padding-right: 8rem;}
+	h2 { position: relative; font-size: 14px; padding-right: 8em;}
 	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
 
   .heart1 {
@@ -113,13 +113,13 @@ h2 {
   }
 
   .heart3 {
-    top: -14rem;
-    left: 20rem;
+    top: -14em;
+    left: 20em;
   }
 
   .heart4 {
-    bottom: -22rem;
-    left: 19rem;
+    bottom: -22em;
+    left: 19em;
   }
 
   .heart5 {
