@@ -16,11 +16,8 @@ h2 {
   font-family: 'Rye', cursive;
   color: brown;
   text-transform: uppercase;
-  /* padding-left: 7.5em; */
   text-align: center;
   margin-top: 3em;
-  /* margin-bottom: 1em;
-  margin-top: -1em; */
 }
 
 .gridarea {
@@ -106,36 +103,17 @@ h2 {
     position: relative;
   }
 
-	h2 { position: relative; font-size: 14px; padding-right: 8em;}
+	h2 { position: relative; font-size: 14px; padding-right: 9em; text-align: center;}
+
 	.gridarea { width: 100%; height: 20rem; margin: 0 auto; }
 
   .heart1 {
-    top: -5em;
-    left: 22em;
+    top: 5.5em;
+    left: 14.8em;
   }
 
   .heart2 {
-    top: 13.2em;
-    left: 21em;
-  }
-
-  .heart3 {
-    top: -14em;
-    left: 20em;
-  }
-
-  .heart4 {
-    bottom: -22em;
-    left: 19em;
-  }
-
-  .heart5 {
-    top: -14em;
-    left: -4em;
-  }
-
-  .heart6 {
-    bottom: -22em;
-    left: -5em;
+    top: 23.7em;
+    left: 13.8em;
   }
 }

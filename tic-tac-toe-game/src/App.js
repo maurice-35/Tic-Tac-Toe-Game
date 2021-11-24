@@ -82,10 +82,6 @@ const App = () => {
       <div className="container">
         <div className="heart1">💖</div>
         <div className="heart2">💖</div>
-        {/* <div className="heart3">💖</div>
-        <div className="heart4">💖</div> */}
-        {/* <div className="heart5">💖</div>
-        <div className="heart6">💖</div> */}
       </div>
       <h2>tic-tac-toe game</h2>
       <div className="gridarea"> 💖
