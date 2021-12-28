@@ -19,6 +19,7 @@ const App = () => {
     } else {
       setPlayer('X')
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gridarea])
 
   useEffect(() => {
